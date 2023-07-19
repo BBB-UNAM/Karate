@@ -1,0 +1,15 @@
+Run all runner files
+$ mvn test
+
+Run runner file (TestRunner.java)
+$ mvn test -Dtest=TestRunner
+
+Run features with labels
+$ mvn test -Dkarate.options='-t=@Test2'
+$ mvn test -Dkarate.options='-t=@dev -t=@src' -Dtest=ExamplesTest
+
+ver ssh public key
+$ cat ~/.ssh/id_rsa.pub
+
+Eliminar lka gestion de git
+$ rm -rf .git
