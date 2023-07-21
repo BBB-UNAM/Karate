@@ -1,4 +1,4 @@
-package Company.AppName.restPUT;
+package Company.AppName.restPOST;
 
 import com.intuit.karate.junit4.Karate;
 import org.junit.runner.RunWith;
