@@ -5,6 +5,7 @@ Feature: testing a basic post api request
     * def requestBody1 = read('RequestCreate.json')
     * def requestBody2 = read('RequestRegister.json')
 
+  @TestPOST
   @TestPOST1
   Scenario: Basic test request.
     Given path '/api/users'
@@ -15,6 +16,7 @@ Feature: testing a basic post api request
     Then match $ contains {id:"#notnull"}
     Then match response.name == "Alberto"
 
+  @TestPOST
   @TestPOST2
   Scenario: API Register
     Given path '/api/register'
@@ -25,6 +27,7 @@ Feature: testing a basic post api request
     Then match $ contains {token:"#notnull"}
     Then match $ contains {token:"QpwL5tke4Pnpja7X4"}
 
+  @TestPOST
   @TestPOST3
   Scenario: Basic test request.
     Given path '/api/users'
@@ -35,6 +38,7 @@ Feature: testing a basic post api request
     Then match $ contains {id:"#notnull"}
     Then match response.name == "Alberto"
 
+  @TestPOST
   @TestPOST4
   Scenario: API Register
     Given path '/api/register'
