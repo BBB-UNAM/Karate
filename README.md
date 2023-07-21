@@ -9,7 +9,7 @@ Run all runner files:
 
 Run runner file (TestRunner.java):
 
-```mvn test -Dtest=TestRunner```
+```mvn test -Dtest=TestRunnerGET```
 
 Run features with labels:
 
