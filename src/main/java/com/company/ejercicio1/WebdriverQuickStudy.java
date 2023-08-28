@@ -54,10 +54,10 @@ public class WebdriverQuickStudy {
         //System.out.println("Hola ");
 
         //WebdriverQuickStudy steps = new WebdriverQuickStudy();
-        //WebDriverManager.edgedriver().setup();
+        WebDriverManager.edgedriver().setup();
         //System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
-        File rootPath = new File("src/main/resources/chromedriver");
-        System.setProperty("webdriver.chrome.driver", rootPath.getPath());
+        //File rootPath = new File("src/main/resources/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", rootPath.getPath());
         WebDriver driver = new ChromeDriver();
         //steps.explicitWait(driver,10);
 
